@@ -1,6 +1,7 @@
 import os 
 import sys
 import time
+import pandas as pd
 
 # get current working directory
 cwd = os.getcwd()
@@ -22,5 +23,5 @@ now = time.time()
 start_time = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(now))
 
 # create a new file in the current working directory
-with open(cwd + '/home/saira/crontab/testFile_' + nowStr + '.txt', 'w') as f:
+with open(cwd + '/Users/sairakhwaja/Documents/GitHub/crontab/testFile_' + start_time + '.txt', 'w') as f:
     f.write(str(covidData))
