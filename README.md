@@ -4,7 +4,8 @@ Assignment 6 HHA 507
 
 # Setting up VM (azure)
 
-1 Set up VM with basic settings
+## 1 Set up VM with basic settings
+
 2 Connect to VM via terminal 
 3 Update VM $ sudo apt-get update
 4 Select nano editor $ select-editor
